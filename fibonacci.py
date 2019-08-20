@@ -23,6 +23,7 @@ def fib(n):
             #if we want to print number in this series which has value less than hundred use if statement
 
             print(i, ";", c)
+            print(a)
 
 
 
