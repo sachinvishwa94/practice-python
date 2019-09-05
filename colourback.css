@@ -7,6 +7,21 @@ h1 {
     }
 
 #hey {
-  background-image:url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg');
+  background:url(./back.jpeg );
+  background-size: 2000px 950px;
+  padding: 350px;
+  color:black
+
+}
+
+#round {
+  border-radius: 100px;
+  color: green;
+  padding: 100px;
+  width: 200px;
+  height: 200px;
+
+
+
 
 }

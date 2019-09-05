@@ -1,11 +1,12 @@
 num = int(input("Enter a Number: "))
 sum = 0
 a = num
+digit_lenght = len(str(num))
 while num > 0:
     digit = num % 10
-    sum = sum+ digit*digit*digit
-    num = num// 10
+    sum = sum  + digit ** digit_lenght
+    num = num // 10
 if a == sum:
-    print("This number is an ARMSTRONG NUMBER")
+    print(sum,"is an ARMSTRONG NUMBER")
 else:
-    print("THis is not an ARMSTRONG NUMBER")
+    print(sum,"This is not an ARMSTRONG NUMBER")

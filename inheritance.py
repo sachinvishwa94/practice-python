@@ -25,4 +25,4 @@ y = Student('construal', 24, 2018)
 y.Studentname()
 
 z = Student("sachin", 25, 2018)
-z.my_function()
+z.Studentname()

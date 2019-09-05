@@ -1,5 +1,6 @@
 
-fibo_cache = {}
+fib_cache = {}
+
 
 def fib(n):
 
@@ -23,8 +24,7 @@ def fib(n):
             #if we want to print number in this series which has value less than hundred use if statement
 
             print(i, ";", c)
-            print(a)
 
 
 
-fib(50000)
+fib(36)
